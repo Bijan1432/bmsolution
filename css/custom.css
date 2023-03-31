@@ -5,19 +5,19 @@
 .section-banner-slider h1 {
   font-size: 4rem;
   font-weight: 700;
-  color: #ffd900;
+  color: #ffb703;
 }
 
 .section-services {
   padding-top: 70px;
   padding-bottom: 70px;
   font-family: "Poppins", sans-serif;
-  background-color: #211f24;
-  color: #fff;
+  background-color: #ececec;
+  color: #000;
   margin-bottom: 4rem;
 }
 .section-services h2 {
-  color: #fff;
+  color: #000000;
 }
 
 .section-services .header-section {
@@ -66,9 +66,23 @@
 
 .section-services .single-service {
   margin-top: 40px;
-  background-color: #24252a;
+  background-color: #ffffff;
   -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
           box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.section-services .single-service:hover {
+  background-color: #e35656;
+  color: white;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.section-services .single-service:hover .part-1 .title {
+  color: #fff;
+}
+.section-services .single-service:hover .part-2 .description {
+  color: #fff;
 }
 
 .section-services .single-service .part-1 {
@@ -102,7 +116,7 @@
 }
 
 .section-services .single-service .part-2 a {
-  color: #fff;
+  color: #000000;
   font-size: 14px;
   text-decoration: none;
 }
@@ -110,4 +124,69 @@
 .section-services .single-service .part-2 a i {
   margin-right: 10px;
   color: #ffd900;
+}
+
+.banner-sec {
+  height: 40vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../images/banner-image1.jpg") center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/banner-image1.jpg") center/cover;
+  position: relative;
+}
+.banner-sec h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 10rem;
+  text-align: center;
+}
+
+.abouus img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.serv {
+  background-color: #fff;
+}
+.serv .single-service {
+  -webkit-box-shadow: 10px 10px 15px 4px rgba(202, 202, 202, 0.86);
+          box-shadow: 10px 10px 15px 4px rgba(202, 202, 202, 0.86);
+}
+
+.contact-div h2 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.contact-div .ab {
+  margin: 2rem 0;
+}
+.contact-div ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.contact-div .detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-column-gap: 15px;
+     -moz-column-gap: 15px;
+          column-gap: 15px;
+}
+.contact-div .detail .hed {
+  font-size: 20px;
+  padding: 8px 0;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.contact-div svg {
+  font-size: 35px;
+  color: #eb5050;
+}
+.contact-div form {
+  margin: 4rem 0;
 }

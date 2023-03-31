@@ -239,9 +239,12 @@ p {
 
 /* -----------section about-----------------  */
 .section-about {
-  /* background-image: url("../images/about-bg.jpg"); */
+  background-image: url("../images/banner-bac.webp");
   position: relative;
   background-position: right bottom;
+
+  background-size: 60%;
+  background-repeat-y: no-repeat;
 }
 
 .section-about .image {
@@ -318,20 +321,20 @@ p {
   padding-bottom: 60px;
   background-position: left top;
   background-size: cover;
-  background-color: #211f24;
-  color: #fff;
+  background-color: #ebebeb;
+  color: #000000;
   margin-bottom: 3rem;
 }
 
 .section-amenities h2 {
-  color: #fff;
+  color: #000000;
 }
 
 .section-amenities .title h2 {
   margin-top: 40px;
 }
 .section-amenities .box {
-  background-color: #24252a;
+  background-color: #ffffff;
   padding: 25px 10px;
   text-align: center;
   margin: 15px 0px;
@@ -370,7 +373,7 @@ p {
 
 .footer {
   padding: 30px 0px;
-  background-color: var(--blue);
+  background-color: #dfdfdf;
   /* margin-bottom: 60px */
 }
 
@@ -384,7 +387,7 @@ p {
 }
 
 .footer .widget h4 {
-  color: var(--light-blue);
+  color: var(--light-pink);
   padding-bottom: 5px;
   font-size: 16px;
   text-transform: uppercase;
@@ -398,7 +401,7 @@ p {
 }
 
 .footer .widget p {
-  color: rgba(255, 255, 255, 0.6);
+  color: #000;
   font-weight: 400;
   padding-bottom: 5px;
   font-size: 13px;
@@ -413,7 +416,7 @@ p {
 }
 
 .footer .widget ul li a {
-  color: rgba(255, 255, 255, 0.6);
+  color: #000;
   font-weight: 400;
   padding-bottom: 5px;
   font-size: 13px;
@@ -429,7 +432,7 @@ p {
 }
 
 .footer .widget .media-box .media-body p {
-  color: rgba(255, 255, 255, 0.6);
+  color: #000;
   font-weight: 400;
   padding-bottom: 5px;
   font-size: 13px;
@@ -448,7 +451,7 @@ p {
 .footer .widget .social li a {
   width: 32px;
   color: var(--light-blue);
-  color: #fff;
+  color: #000000;
 }
 
 .footer .copyright {
@@ -458,7 +461,7 @@ p {
 
 .footer .copyright h5 {
   text-align: center;
-  color: rgba(255, 255, 255, 0.4);
+  color: #000;
   font-size: 12px;
 }
 
@@ -622,7 +625,8 @@ p {
   color: #000;
   background-color: #f1f1f1;
   background-image: none;
-  border: 1px solid #c0c0c0;
+  border: none;
+  border-bottom: 3px solid #000000;
   border-radius: 0;
   -webkit-box-shadow: none;
   box-shadow: none;
